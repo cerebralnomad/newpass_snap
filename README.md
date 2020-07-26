@@ -1,11 +1,10 @@
-# cli_password_generator
-Generate a random password of a specified length
+# NewPass
+Generate a random password of a specified length from the command line
 
 ## Installation
 
-Download newpass.py and put it in your PATH (~/bin for instance)  
-Recommend renaming to newpass for easier use on the command line  
-Make it executable (chmod u+x newpass)
+This is the snap file repo. To install, from the command line use:
+snap install newpass
 
 ## Usage
 
@@ -50,4 +49,3 @@ The -l flag includes a limited set of symbols (!@#$%*&) for increased acceptance
 
 Use a unique password for every site and never reuse passwords.  
 Store them in a password manager such as KeePass, LastPass, or [Bitwarden](https://bitwarden.com/)
-
