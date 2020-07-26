@@ -1,0 +1,21 @@
+name: newpass
+base: core18
+version: '1.0'
+summary: Generate a random password of a specified length
+description: |
+  A Python script to generate random passwords with the optional inclusion
+  of special characters.
+  Use a unique password for every login and never reuse passwords.
+  Store your passwords in a password manager like KeePass, LastPass, or BitWarden
+
+grade: stable
+confinement: strict
+        
+parts:
+  newpass:
+      plugin: dump
+      source: .
+
+apps:
+  newpass:
+      command: newpass
