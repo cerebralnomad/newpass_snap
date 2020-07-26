@@ -3,8 +3,8 @@ Generate a random password of a specified length from the command line
 
 ## Installation
 
-This is the snap file repo. To install, from the command line use:
-snap install newpass
+This is the snap file repo. To install, from the command line use:  
+*snap install newpass*
 
 ## Usage
 
